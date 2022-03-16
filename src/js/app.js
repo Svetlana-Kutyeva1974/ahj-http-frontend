@@ -1,5 +1,5 @@
-import Controller from './controller.js';
-import UserInterface from './userInterface.js';
+import Controller from './controller';
+import UserInterface from './userInterface';
 
 const userI = new UserInterface();
 const controller = new Controller(userI);
