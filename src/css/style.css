@@ -27,7 +27,8 @@ h1 {
   display: table-cell;
   padding: 20px;
   box-sizing: border-box;
-  border-bottom: 1px solid #495057;
+ /* border-bottom: 1px solid #495057;*/
+  border: 1px solid #495057;
 }
 
 .row div:nth-child(n + 4) {
@@ -51,12 +52,38 @@ h1 {
 }
 
 .modal {
+  position: absolute;
   border: 1px solid #495057;
   width: 400px;
   padding: 30px 47px;
   margin: 0 20px;
+  z-index: 999;
 }
 
 .modal input {
   margin: 5px 0;
+}
+
+.addt {
+  text-align: right;
+  margin-left: 80%;
+  border-radius: .2rem;
+  height: 35px;
+  margin-bottom: 20px;
+}
+
+.button {
+  border-radius: .2rem;
+  
+}
+
+.status {
+  border: 2px solid #000;
+  border-radius: 50%;
+  height: 40px;
+  left: 15px;
+  position: absolute;
+  top: 15px;
+  width: 40px;
+  
 }

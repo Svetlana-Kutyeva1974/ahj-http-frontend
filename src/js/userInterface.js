@@ -15,8 +15,8 @@ export default class UserInterface {
       <div data-id="status">${status}</div>
       <div data-id="title" class="title">${title}</div>
       <div data-id="data" class="date">${data}</div>
-      <div><button data-id="edit">edit</button></div>
-      <div><button data-id="del">del</button></div>
+      <div><button data-id="edit">&#9998;</button></div>
+      <div><button data-id="del">&#10006;</button></div>
     </div>`;
   }
 
@@ -26,8 +26,8 @@ export default class UserInterface {
       <h3>${header}</h3>
       Краткое описание <input type="text" name="title" value="${title}"><br>
       Подробное описание <input type="text" name="description" value="${description}"><br>
-      <button type="reset">Отмена</button>
-      <button type="submit">Ок</button>
+      <button class="button" type="reset">Отмена</button>
+      <button class="button" type="submit">Ок</button>
     </form>
       `;
   }
@@ -43,8 +43,8 @@ export default class UserInterface {
     <form name="del" data-idfor=${id}>
       <h3>Удалить тикет</h3>
       <p>Are you sure? It's can't be cancelled.</p>
-      <button type="reset">Отмена</button>
-      <button type="submit">Ок</button>
+      <button class="button" type="reset">Отмена</button>
+      <button class="button" type="submit">Ок</button>
     </form>
     `;
   }
