@@ -3,7 +3,7 @@ export default class Controller {
     this.userI = userI;
     this.tickets = null;
     this.url = 'http://localhost:7070/';
-   // this.url = 'https://ahj-http-back.herokuapp.com';//первый
+    // this.url = 'https://ahj-http-back.herokuapp.com';//первый
     // this.url = `https://server-74.herokuapp.com`;xxzs
     this.modalSubmit = this.modalSubmit.bind(this);
     this.modalReset = this.modalReset.bind(this);
