@@ -24,8 +24,8 @@ export default class UserInterface {
     return `
     <form name=${name} data-idfor="${id}">
       <h3>${header}</h3>
-      Краткое описание <input type="text" name="title" value="${title}"><br>
-      Подробное описание <input type="text" name="description" value="${description}"><br>
+      <span class="descript">Краткое описание</span><br><input type="text" name="title" value="${title}"><br>
+      <span class="descript">Подробное описание</span><br><input type="text" name="description" value="${description}"><br>
       <button class="button" type="reset">Отмена</button>
       <button class="button" type="submit">Ок</button>
     </form>
